@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+
+:root {
+  font-family: "Montserrat", serif;
+  background-color: #121212;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+@theme {
+
+  --color-mcoaching-primary: #121212;
+  --color-mcoaching-secondary: #191919;
+  --color-mcoaching-accent: #CBF277;
+  --color-mcoaching-light : #F2F2F2;
+  --color-mcoaching-background: #121212;
+  --color-mcoaching-text: #1E293B;
+
+}
+
